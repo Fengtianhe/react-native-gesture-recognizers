@@ -21,8 +21,8 @@ add plugin to `.babelrc`
 ```
 
 ## Basic swipe example
-```
-import { swipeable } from 'react-native-gesture-recognizers';
+```javascript
+import { swipeable } from 'react-native-gesture-recognizers-f';
 @swipeable({
   horizontal:true,
   vertical: true,
@@ -51,7 +51,7 @@ class SwipeMe {
 
 ```javascript
 import React, { Component, Text, View, LayoutAnimation } from 'react-native';
-import { swipeable } from 'react-native-gesture-recognizers';
+import { swipeable } from 'react-native-gesture-recognizers-f';
 const { directions: { SWIPE_UP, SWIPE_LEFT, SWIPE_DOWN, SWIPE_RIGHT } } = swipeable;
 class TransformOnSwipe extends Component {
 
