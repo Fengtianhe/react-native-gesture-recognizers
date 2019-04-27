@@ -1,5 +1,5 @@
 {
-  "name": "react-native-gesture-recognizers",
+  "name": "@fengtianhe/react-native-gesture-recognizers",
   "version": "0.0.1",
   "description": "fix PropTypes bug for johanneslumpe/react-native-gesture-recognizers",
   "main": "index.js",
