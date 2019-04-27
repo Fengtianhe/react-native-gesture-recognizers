@@ -18,6 +18,16 @@ add plugin to `.babelrc`
   }
 }
 
+## Enabled LayoutAnimate If use it in Android
+
+``` javascript
+import { UIManager } from 'react-native';
+
+UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
+```
+上面这段代码应该写在任何组件加载之前，比如可以写到 index.js 的开头。
+The above code should be written before any component is loaded, such as at the beginning of index. js.
+
 ```
 
 ## Basic swipe example
